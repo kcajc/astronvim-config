@@ -18,7 +18,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  colorscheme = "habamax",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -37,7 +37,6 @@ return {
         },
         ignore_filetypes = { -- disable format on save for specified filetypes
           -- "python",
-          "lua"
         },
       },
       disabled = { -- disable formatting capabilities for the listed language servers
