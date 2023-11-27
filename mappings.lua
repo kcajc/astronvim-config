@@ -35,6 +35,6 @@ return {
   },
   t = {
     -- setting a mapping to false will disable it
-    ["<esc>"] = { "<C-\\><C-n>", desc = "Move in and out of terminal"}
+    -- ["<esc>"] = { "<C-\\><C-n>", desc = "Move in and out of terminal"}
   },
 }

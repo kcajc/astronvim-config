@@ -1,3 +1,5 @@
+local icons = require "user.icons"
+
 return {
   -- Configure AstroNvim updates
   updater = {
@@ -18,7 +20,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "catppuccin-frappe",
+  colorscheme = "everforest",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -94,4 +96,7 @@ return {
     --   },
     -- }
   end,
+
+  -- This overrides default icons using icons.lua
+  icons = icons,
 }
