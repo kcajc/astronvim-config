@@ -32,6 +32,9 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+
+    -- better paste
+    ["P"] = { '"_dp', desc = "Paste without adding to the registry" },
   },
   t = {
     -- setting a mapping to false will disable it
