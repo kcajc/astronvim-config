@@ -5,13 +5,16 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   { import = "astrocommunity.pack.rust" },
-  -- { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.astro" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.everforest" },
   { import = "astrocommunity.colorscheme.rose-pine" },
   { import = "astrocommunity.colorscheme.kanagawa-nvim" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+
+  -- Community plugin configs
   {
     "catppuccin",
     lazy = false,

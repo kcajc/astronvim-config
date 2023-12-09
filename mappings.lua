@@ -38,6 +38,6 @@ return {
   },
   t = {
     -- setting a mapping to false will disable it
-    ["<esc>"] = { "<C-\\><C-n>", desc = "Get into normal mode in terminal" },
+    -- ["<esc>"] = { "<C-\\><C-n>", desc = "Get into normal mode in terminal" },
   },
 }
