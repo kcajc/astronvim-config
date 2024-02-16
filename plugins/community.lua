@@ -14,6 +14,7 @@ return {
   { import = "astrocommunity.colorscheme.rose-pine" },
   { import = "astrocommunity.colorscheme.kanagawa-nvim" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+  { import = "astrocommunity.motion.nvim-surround" },
 
   -- Community plugin configs
   {
